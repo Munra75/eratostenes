@@ -48,13 +48,15 @@
             <p id="display-name" class="text-lg font-serif italic text-white"></p>
             <p id="display-id" class="text-[10px] text-amber-500 font-bold uppercase tracking-widest mt-1"></p>
         </div>
-        <nav class="space-y-1">
-            <div onclick="showTab('history')" id="btn-history" class="nav-item p-4 active">📖 Historia y Redondez</div>
-            <div onclick="showTab('quiz')" id="btn-quiz" class="nav-item p-4">📋 Evaluación Oficial</div>
-            <div onclick="showTab('experiment')" id="btn-experiment" class="nav-item p-4">🧪 Experimento de Campo</div>
-            <div onclick="showTab('report')" id="btn-report" class="nav-item p-4 font-bold text-amber-500">📊 Acta de Resultados</div>
-        </nav>
-        <div class="mt-auto text-[10px] text-center text-gray-600 border-t border-amber-900/20 pt-4">Msc. Aldo Zeas Castro</div>
+       <nav class="space-y-1">
+    <div onclick="showTab('history')" id="btn-history" class="nav-item p-4 active">📖 Historia del Experimento</div>
+    <div onclick="showTab('pretest')" id="btn-pretest" class="nav-item p-4">📝 Pretest</div>
+    <div onclick="showTab('experiment')" id="btn-experiment" class="nav-item p-4">🧪 Experimento</div>
+    <div onclick="showTab('quiz')" id="btn-quiz" class="nav-item p-4">📋 Postest</div>
+    <div onclick="showTab('report')" id="btn-report" class="nav-item p-4 font-bold text-amber-500">📊 Informe</div>
+</nav>
+
+<img src="radio.png" class="img-hero" onerror="this.src='https://via.placeholder.com/800x300?text=Eratostenes+LMS'">
     </aside>
 
     <main id="main-content" class="flex-grow p-12 hidden overflow-y-auto">
